@@ -9,3 +9,13 @@
 // .navbar-collapse {
 //   z-index: 1;
 // }
+.navbar-brand {
+  margin-left: 75px;
+  font-size: 36px;
+  font-family: $font-headings !important;
+}
+.navbar-nav {
+  margin-right: 75px;
+  font-size: 15px;
+  font-family: $font-nav !important;
+}

@@ -1,6 +1,9 @@
+html,
 body {
+  height: 100%;
   background-color: getColor(lightblue);
 }
+
 .col-header {
   background-color: getColor(lightgreen);
   max-width: 100%;
@@ -18,4 +21,20 @@ body {
 .header {
   text-align: center;
   color: getColor(white);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: getColor(lightbeige);
+  flex-shrink: 0;
+  padding: 0.5em;
+  //   .footer-mail {
+  //     margin-left: 2%;
+  //   }
+  //   .footer-cpyright {
+  //     margin-right: 2%;
+  //   }
+}
+.wrapper {
+  flex: 1 0 auto;
 }

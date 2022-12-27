@@ -1,4 +1,6 @@
+html,
 body {
+  height: 100%;
   background-color: #8dbde7;
 }
 
@@ -23,6 +25,17 @@ body {
   color: #ffffff;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 0.5em;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
 .navbar {
   height: 70px;
   margin: 0 auto;
@@ -31,4 +44,37 @@ body {
 
 .navbar-light .navbar-nav .active > .nav-link {
   color: #81cfc2;
+}
+
+.navbar-brand {
+  margin-left: 75px;
+  font-size: 36px;
+  font-family: "Gentium Book Basic", serif !important;
+}
+
+.navbar-nav {
+  margin-right: 75px;
+  font-size: 15px;
+  font-family: "Archivo Narrow", sans-serif !important;
+}
+
+.card {
+  border-radius: 50%;
+  height: 166px;
+  width: 166px;
+  margin: 10px;
+  padding: 6.5rem;
+}
+.card.pinkborder {
+  background-color: white;
+  border: 3px solid;
+}
+.card.pinkbackground {
+  border: 3px solid white;
+}
+
+.form-group {
+  max-width: 432px;
+  height: 257px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

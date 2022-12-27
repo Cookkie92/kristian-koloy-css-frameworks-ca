@@ -1,0 +1,17 @@
+.card {
+  background-color: getColor(lightbeige);
+  border-radius: 50%;
+  height: 166px;
+  width: 166px;
+  margin: 10px;
+  padding: 6.5rem;
+
+  &.pinkborder {
+    background-color: white;
+    border: 3px solid getColor(pinki);
+  }
+  &.pinkbackground {
+    background-color: getColor(pinki);
+    border: 3px solid white;
+  }
+}
