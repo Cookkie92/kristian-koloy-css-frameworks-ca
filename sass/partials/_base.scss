@@ -3,4 +3,19 @@ body {
 }
 .col-header {
   background-color: getColor(lightgreen);
+  max-width: 100%;
+  height: 70px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.col-md {
+  height: 253px;
+  max-width: 556px;
+  background-color: getColor(white);
+  margin: 10px;
+  border-radius: 10px;
+}
+.header {
+  text-align: center;
+  color: getColor(white);
 }

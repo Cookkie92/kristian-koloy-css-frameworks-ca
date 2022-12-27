@@ -1,4 +1,11 @@
 .navbar {
+  height: 70px;
   margin: 0 auto;
   background-color: getColor(white);
 }
+.navbar-light .navbar-nav .active > .nav-link {
+  color: getColor(lightgreen);
+}
+// .navbar-collapse {
+//   z-index: 1;
+// }
