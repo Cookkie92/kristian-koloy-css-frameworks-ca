@@ -1,0 +1,18 @@
+$color-lightblue: #8dbde7;
+$color-lightgreen: #81cfc2;
+$color-yellow: #efef94;
+$color-white: #ffffff;
+
+$font-headings: "Gentium Book Basic", serif;
+$font-primary: "Open Sans", sans-serif;
+$font-nav: "Archivo Narrow", sans-serif;
+
+$colors: (
+  lightblue: #8dbde7,
+  lightgreen: #81cfc2,
+  yellow: #efef94,
+  white: #ffffff,
+);
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
