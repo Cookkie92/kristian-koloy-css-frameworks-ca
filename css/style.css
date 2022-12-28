@@ -6,21 +6,34 @@ body {
 
 .col-header {
   background-color: #81cfc2;
-  max-width: 100%;
+  max-width: 556px;
   height: 70px;
   padding: 20px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Gentium Book Basic", serif !important;
+  color: #ffffff;
 }
 
 .col-md {
-  height: 253px;
   max-width: 556px;
+  height: 253px;
   background-color: #ffffff;
   margin: 10px;
   border-radius: 10px;
 }
 
+.col-md p {
+  text-align: left;
+  height: 129px;
+  padding: 30px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif !important;
+}
+
 .header {
+  font-size: 34px;
+  font-family: "Gentium Book Basic", serif !important;
   text-align: center;
   color: #ffffff;
 }
@@ -28,12 +41,55 @@ body {
 footer {
   display: flex;
   justify-content: space-between;
-  flex-shrink: 0;
-  padding: 0.5em;
+  background-color: #ffffff;
+  padding: 18px;
+}
+footer .cpyright {
+  margin-left: 75px;
+}
+footer .contact-info {
+  margin-right: 75px;
 }
 
 .wrapper {
-  flex: 1 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-lg {
+  font-family: "Gentium Book Basic", serif !important;
+  width: 256px;
+  height: 67px;
+  margin-bottom: 10px;
+  font-size: 27px;
+  background-color: rgba(38, 38, 38, 0.792);
+  border: #ffffff;
+}
+
+.btn-lg:hover {
+  background-color: rgba(141, 240, 202, 0.682);
+}
+
+.lead {
+  background-color: rgba(255, 255, 255, 0.682);
+  height: 167px;
+  font-size: 19px;
+  text-align: left;
+  padding: 40px;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.specials-info {
+  padding-top: 130px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.fa-brands {
+  color: #8dbde7;
 }
 
 .navbar {
