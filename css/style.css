@@ -162,8 +162,47 @@ footer .contact-info {
   font-size: 16px;
 }
 
-.form-group {
+form {
   max-width: 432px;
   height: 257px;
+  width: 432px;
+  padding: 30px;
+  color: white;
+  align-items: center;
   margin: 0 auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 400px;
+}
+
+.form-check {
+  color: grey;
+  margin: 0 auto;
+}
+
+.form-check-input {
+  border: 1px solid #cecece;
+  height: 22px;
+  width: 21px;
+}
+
+.form-input input {
+  height: 48px;
+  border-color: white;
+  border: 2px solid #81cfc2;
+  border-radius: 5px;
+}
+
+.login-btn {
+  margin-left: 50px;
+  height: 38px;
+  width: 166px;
+  font-size: 16px;
+  background-color: rgb(23, 23, 23);
+  color: grey;
+  float: right;
+}
+
+.login-btn:hover {
+  background-color: #81cfc2;
 }/*# sourceMappingURL=style.css.map */
