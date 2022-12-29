@@ -205,4 +205,41 @@ form {
 
 .login-btn:hover {
   background-color: #81cfc2;
+}
+
+@media (max-width: 576px) {
+  .lead {
+    display: none;
+  }
+  .specials-info {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 5%;
+  }
+  .btn-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    margin: 15px;
+  }
+  .form-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+  }
+  .checker {
+    order: 2;
+  }
+  .login-btn {
+    order: 1;
+    width: 300px;
+  }
+  form {
+    max-width: 359px;
+  }
 }/*# sourceMappingURL=style.css.map */
