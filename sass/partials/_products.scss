@@ -3,8 +3,8 @@
   border-radius: 50%;
   height: 166px;
   width: 166px;
-  margin: 10px;
-  padding: 6.5rem;
+  margin: 20px;
+  padding: 20px;
 
   &.pinkborder {
     background-color: white;
@@ -14,4 +14,13 @@
     background-color: getColor(pinki);
     border: 3px solid white;
   }
+}
+.products-container {
+}
+
+.btn-toolbar {
+  padding-left: 100px;
+}
+.content {
+  margin-bottom: 300px;
 }
