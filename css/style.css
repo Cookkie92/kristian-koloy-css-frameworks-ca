@@ -36,6 +36,7 @@ body {
   font-family: "Gentium Book Basic", serif !important;
   text-align: center;
   color: #ffffff;
+  padding-top: 15px;
 }
 
 footer {
@@ -129,7 +130,6 @@ footer .contact-info {
 
 .btn-toolbar {
   max-width: 1140px;
-  padding-left: 110px;
   margin: 15px;
 }
 
