@@ -120,20 +120,46 @@ footer .contact-info {
   margin: 20px;
   padding: 20px;
 }
-.card.pinkborder {
-  background-color: white;
-  border: 3px solid;
+.card.greenbackground {
+  background-color: #81cfc2;
 }
-.card.pinkbackground {
-  border: 3px solid white;
+.card.yellowbackground {
+  background-color: #efef94;
 }
 
 .btn-toolbar {
-  padding-left: 100px;
+  max-width: 1140px;
+  padding-left: 110px;
+  margin: 15px;
 }
 
 .content {
   margin-bottom: 300px;
+}
+
+.btn-secondary {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #8dbde7;
+}
+
+.previous {
+  color: grey;
+  padding: 0px;
+}
+
+.btn-group,
+.mr-2 {
+  width: 318px;
+  height: 44px;
+}
+
+.card-body {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px;
 }
 
 .form-group {

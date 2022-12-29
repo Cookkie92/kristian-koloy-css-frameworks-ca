@@ -6,21 +6,42 @@
   margin: 20px;
   padding: 20px;
 
-  &.pinkborder {
-    background-color: white;
-    border: 3px solid getColor(pinki);
+  &.greenbackground {
+    background-color: getColor(lightgreen);
   }
-  &.pinkbackground {
-    background-color: getColor(pinki);
-    border: 3px solid white;
+  &.yellowbackground {
+    background-color: getColor(yellow);
   }
 }
 .products-container {
 }
 
 .btn-toolbar {
-  padding-left: 100px;
+  max-width: 1140px;
+  padding-left: 110px;
+  margin: 15px;
 }
 .content {
   margin-bottom: 300px;
+}
+.btn-secondary {
+  border-radius: 10px;
+  background-color: getColor(white);
+  color: getColor(lightblue);
+}
+.previous {
+  color: grey;
+  padding: 0px;
+}
+.btn-group,
+.mr-2 {
+  width: 318px;
+  height: 44px;
+}
+.card-body {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-family: $font-primary !important;
+  font-size: 16px;
 }
