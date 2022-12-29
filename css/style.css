@@ -242,4 +242,24 @@ form {
   form {
     max-width: 359px;
   }
+  .product-row {
+    max-width: 359px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright {
+    padding: 10px;
+    order: 3;
+  }
+  .awesome-icons {
+    padding: 10px;
+    order: 2;
+  }
+  .contact-info {
+    padding: 10px;
+    order: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
