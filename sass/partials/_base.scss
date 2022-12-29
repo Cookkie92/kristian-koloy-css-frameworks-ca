@@ -84,3 +84,8 @@ footer {
 .fa-brands {
   color: getColor(lightblue);
 }
+@media (min-width: 300px) {
+  .specials-info p {
+    display: none;
+  }
+}
